@@ -1,18 +1,20 @@
 // ==UserScript==
 // @name         Leitstellenspiel-Auswertung
 // @namespace    https://github.com/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       littlejak20, jubjub29
 // @match        https://www.leitstellenspiel.de/credits*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.5.1.min.js
+// @updateURL    https://raw.githubusercontent.com/littlejak20/tampermonkey/main/leitstellenspiel-auswertung.js
+// @downloadURL    https://raw.githubusercontent.com/littlejak20/tampermonkey/main/leitstellenspiel-auswertung.js
 // ==/UserScript==
 
 (function() {
     'use strict';
     
-    console.log('test');
+    console.log('test123');
 
     var strLsName = 'test123456';
     var strLsStartedName = strLsName+'Started';
