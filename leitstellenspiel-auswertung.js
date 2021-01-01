@@ -8,7 +8,7 @@
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.5.1.min.js
 // @updateURL    https://raw.githubusercontent.com/littlejak20/tampermonkey/main/leitstellenspiel-auswertung.js
-// @downloadURL    https://raw.githubusercontent.com/littlejak20/tampermonkey/main/leitstellenspiel-auswertung.js
+// @downloadURL  https://raw.githubusercontent.com/littlejak20/tampermonkey/main/leitstellenspiel-auswertung.js
 // ==/UserScript==
 
 (function() {
