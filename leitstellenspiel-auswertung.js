@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Leitstellenspiel-Auswertung
 // @namespace    https://github.com/
-// @version      0.3
+// @version      0.4
 // @description  try to take over the world!
 // @author       littlejak20, jubjub29
 // @match        https://www.leitstellenspiel.de/credits*
@@ -14,7 +14,7 @@
 (function() {
     'use strict';
     
-    console.log('test123');
+    console.log('test123567');
 
     var strLsName = 'test123456';
     var strLsStartedName = strLsName+'Started';
