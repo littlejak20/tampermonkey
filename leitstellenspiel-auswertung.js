@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Leitstellenspiel-Auswertung
 // @namespace    https://github.com/
-// @version      0.4
+// @version      0.5
 // @description  try to take over the world!
 // @author       littlejak20, jubjub29
 // @match        https://www.leitstellenspiel.de/credits*
@@ -22,6 +22,7 @@
     var strBackButtonSelector = strTableSelector+' + ul.pagination.pagination li.prev > a';
     var intTimeoutMilliSec = 10;
     var downloadFileName = 'Einzeltransaktionen.csv';
+    var strCsvTrenzeichen=','
 
     console.log('strLsStartedName', localStorage.getItem(strLsStartedName));
     if (localStorage.getItem(strLsStartedName) === 'true') {
@@ -50,7 +51,7 @@
 
             arrTds.each((index, td) => {
                 console.log('td', index, td);
-                data += td.innerHTML+';';
+                data += td.innerHTML+strCsvTrenzeichen;
             });
             data += '\n';
         });
